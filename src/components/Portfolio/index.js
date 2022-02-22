@@ -57,7 +57,7 @@ function Portfolio() {
 
   return (
     <div>
-      <h2 className="my-work">Examples of my Work</h2>
+      <h2 className="my-work">Professional Portfolio</h2>
       <section className="my-3">
         <div className="portfolio-div">
           {work.map((example, i) => (
