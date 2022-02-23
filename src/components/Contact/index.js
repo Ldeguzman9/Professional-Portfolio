@@ -45,7 +45,7 @@ function ContactForm() {
       <h1 data-testid="h1tag">Contact Me</h1>
       <Form id="contact-form" onSubmit={handleSubmit}>
         <Form.Group className="mb-3">
-          <Form.Label htmlFor="name">Name:</Form.Label>
+          <Form.Label htmlFor="name">Full Name:</Form.Label>
           <Form.Control
             type="text"
             name="name"

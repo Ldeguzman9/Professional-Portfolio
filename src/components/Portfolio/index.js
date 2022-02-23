@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Card, Button, Col } from "react-bootstrap";
-//import logo from "../../assets/images/github.svg";
 
 function Portfolio() {
   const [work] = useState([
@@ -35,7 +34,7 @@ function Portfolio() {
     {
       name: "Workday Scheduler",
       id: "WorkDay-Img-Element",
-      description: "HTRML, Bootstrap, JQuery",
+      description: "HTML, Bootstrap, JQuery",
       link: "https://ldeguzman9.github.io/work-day-calendar/",
       github: "https://github.com/Ldeguzman9/work-day-calendar",
     },
@@ -73,9 +72,6 @@ function Portfolio() {
                   <Button variant="primary" href={example.link}>
                     {example.name}
                   </Button>
-                  <a href={example.github} className="github-link">
-                    {/* <img src={logo} alt="github link" /> */}
-                  </a>
                 </div>
               </Card.Body>
             </Card>
