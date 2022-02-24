@@ -8,10 +8,6 @@ Hi there! My name is Lauren de Guzman. This is a REACT portfolio of my work as a
   ![bio](https://github.com/Ldeguzman9/Portfolio/blob/main/assets/images/bio.png?raw=true)
 - **Work:** A collection of projects I have worked on.
   ![work](https://github.com/Ldeguzman9/Portfolio/blob/main/assets/images/projects%20.png?raw=true)
-- **Certifications:** My training and certifications in code.
-- **Academic Background:** Degrees and Universities in which I have studied.
-  ![Education](https://github.com/Ldeguzman9/Portfolio/blob/main/assets/images/education.png?raw=true)
-- **Contact:** Want to connect?
 
 # Technical Skills
 
@@ -36,3 +32,5 @@ Hi there! My name is Lauren de Guzman. This is a REACT portfolio of my work as a
 - Progressive Web Applications
 
 # Links
+
+Deployed link: https://portfolio-12345.herokuapp.com/
