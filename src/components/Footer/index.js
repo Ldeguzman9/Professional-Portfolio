@@ -10,14 +10,21 @@ function Footer() {
             <Nav id="footer-nav">
               <Nav.Link href="https://github.com/ldeguzman9" target="_blank">
                 {" "}
-                github{" "}
+                Github{" "}
               </Nav.Link>
               <Nav.Link
                 href="https://www.linkedin.com/in/laurendeguzman/"
                 target="_blank"
               >
                 {" "}
-                linkedIn{" "}
+                LinkedIn{" "}
+              </Nav.Link>
+              <Nav.Link
+                href="https://stackoverflow.com/users/18295152/lauren-de-guzman"
+                target="_blank"
+              >
+                {" "}
+                StackOverflow{" "}
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

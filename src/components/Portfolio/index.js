@@ -72,6 +72,10 @@ function Portfolio() {
                   <Button variant="primary" href={example.link}>
                     {example.name}
                   </Button>
+                  <br />
+                  <Button variant="primary" href={example.github}>
+                    Github Repo
+                  </Button>
                 </div>
               </Card.Body>
             </Card>
