@@ -5,9 +5,9 @@ Hi there! My name is Lauren de Guzman. This is a REACT portfolio of my work as a
 # You will find:
 
 - **About me:** Who am I? What do I do? Why I am unique?
-  ![bio](https://github.com/Ldeguzman9/Portfolio/blob/main/assets/images/bio.png?raw=true)
+  ![bio](https://github.com/Ldeguzman9/Professional-Portfolio/blob/main/src/assets/projects/about-me.png?raw=true)
 - **Work:** A collection of projects I have worked on.
-  ![work](https://github.com/Ldeguzman9/Portfolio/blob/main/assets/images/projects%20.png?raw=true)
+  ![work](https://github.com/Ldeguzman9/Professional-Portfolio/blob/main/src/assets/projects/projects-overview.png?raw=true)
 
 # Technical Skills
 
