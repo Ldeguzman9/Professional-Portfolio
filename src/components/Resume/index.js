@@ -6,7 +6,7 @@ function Resume() {
       <h2>Resume</h2>
       <p className="center">
         Download my resume{" "}
-        <a href="https://drive.google.com/file/d/1NcwxDsyP5ax0t33SyORsWR0VqU-Rm7cj/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1tNPIzUxIB95Bz3UKaz0xydnePieLuFO2/view?usp=sharing">
           here
         </a>
       </p>

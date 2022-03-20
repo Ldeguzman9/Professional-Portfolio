@@ -4,6 +4,13 @@ import { Card, Button, Col } from "react-bootstrap";
 function Portfolio() {
   const [work] = useState([
     {
+      name: "SoCal Tanzanian Community",
+      id: "STC-Img-Element",
+      description: "Non-Profit Tanzanian Community Website",
+      link: "https://so-cal-community.herokuapp.com/",
+      github: "https://github.com/Ldeguzman9/so_cal_web",
+    },
+    {
       name: "Stockable",
       id: "Stockable-Img-Element",
       description: "Frontend Stockmarket Project",

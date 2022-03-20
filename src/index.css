@@ -1,3 +1,9 @@
+#STC-Img-Element {
+  background-image: url(./assets/projects/STC.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
 #Stockable-Img-Element {
   background-image: url(./assets/projects/Stockable.png);
   background-position: top;
