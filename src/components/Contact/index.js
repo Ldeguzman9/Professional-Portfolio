@@ -42,9 +42,10 @@ function ContactForm() {
 
   return (
     <section id="contact-section">
-    <h1 data-testid="h1tag">Contact Info</h1>
-     <h2 data-testid="h1tag">Email: lauren.a.deguzman@gmail.com</h2>
-    </br>
+      <div>
+        <h1 className="my-work">Contact info</h1>
+        <h2>Email: lauren.a.deguzman@gmail.com</h2>
+      </div>
       <h1 data-testid="h1tag">Contact Me</h1>
       <Form id="contact-form" onSubmit={handleSubmit}>
         <Form.Group className="mb-3">
