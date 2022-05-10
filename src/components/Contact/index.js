@@ -43,49 +43,51 @@ function ContactForm() {
   return (
     <section id="contact-section">
       <div>
-        <h1 className="my-work">Contact info</h1>
-        <h2>Email: lauren.a.deguzman@gmail.com</h2>
+        <h1 className="my-work">Contact</h1>
+        <Form.Label>Email: lauren.a.deguzman@gmail.com</Form.Label>
       </div>
-      <h1 data-testid="h1tag">Contact Me</h1>
-      <Form id="contact-form" onSubmit={handleSubmit}>
-        <Form.Group className="mb-3">
-          <Form.Label htmlFor="name">Full Name:</Form.Label>
-          <Form.Control
-            type="text"
-            name="name"
-            defaultValue={name}
-            onBlur={handleChange}
-          />
-        </Form.Group>
-        <Form.Group className="mb-3">
-          <Form.Label htmlFor="email">Email address:</Form.Label>
-          <Form.Control
-            type="email"
-            name="email"
-            defaultValue={email}
-            onBlur={handleChange}
-          />
-          {/* <Form.Text className="text-muted"></Form.Text> */}
-        </Form.Group>
-        <Form.Group className="mb-3">
-          <Form.Label htmlFor="message">Message:</Form.Label>
-          <Form.Control
-            as="textarea"
-            name="message"
-            rows="5"
-            defaultValue={message}
-            onBlur={handleChange}
-          />
-        </Form.Group>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
-        <Button variant="primary" data-testid="button" type="submit">
-          Submit
-        </Button>
-      </Form>
+      <div>
+        <h1 data-testid="h1tag">Contact Form</h1>
+        <Form id="contact-form" onSubmit={handleSubmit}>
+          <Form.Group className="mb-3">
+            <Form.Label htmlFor="name">Full Name:</Form.Label>
+            <Form.Control
+              type="text"
+              name="name"
+              defaultValue={name}
+              onBlur={handleChange}
+            />
+          </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Label htmlFor="email">Email address:</Form.Label>
+            <Form.Control
+              type="email"
+              name="email"
+              defaultValue={email}
+              onBlur={handleChange}
+            />
+            {/* <Form.Text className="text-muted"></Form.Text> */}
+          </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Label htmlFor="message">Message:</Form.Label>
+            <Form.Control
+              as="textarea"
+              name="message"
+              rows="5"
+              defaultValue={message}
+              onBlur={handleChange}
+            />
+          </Form.Group>
+          {errorMessage && (
+            <div>
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
+          <Button variant="primary" data-testid="button" type="submit">
+            Submit
+          </Button>
+        </Form>
+      </div>
     </section>
   );
 }
